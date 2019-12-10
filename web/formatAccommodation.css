@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-Jan-2017, 13:24:18
+    Author     : Virajee
+*/
+
+body{
+    background-color: black;
+}
+
+.search_criteria{
+    background-color:#322f2f;   
+    height:74px; 
+    border-style:solid;
+    border-color:#322f2f;    
+}
+
+.search_criteria ul{
+    list-style-type:none;
+    float:left;
+    padding-right:20px;     
+}
+
+.search_criteria li{
+    display:inline-block;
+    margin:10px;
+    font-size:large; 
+    font-weight:bold;
+    color:#F8F0F1;
+}
+
+.fields{
+    height:2em;
+    width:12em;
+    border-radius: 0.5em;
+    background-color: #cac3c3;
+}
+
+.buttons{
+    background-color:#424040;
+    color:gray;
+    border:none;
+    width:8em;
+    font-size:0.8em;	
+    border-radius:0.3em;
+    padding: 0.5em;
+    margin-left: 1em;
+    cursor: pointer;    
+}
+
+.buttonSections{
+    margin-left:-1.2em;    
+}
+
+#buy{
+    margin-left: -1.5em;
+}
+
+#viewProp{
+    margin-left: -2.2em;
+}
+
+.product{
+	clear:both;        
+	margin-left:65px;
+	margin-top:80px;
+	display: inline-block;
+	align: center;
+	color:white;	
+}
+
+.text{
+	line-height:1.8em;
+	margin-top:1em;	
+}
+
+.view{
+	display:inline-block;	
+	padding-left:0.9em;
+	padding-right:0.9em;
+	margin-right:-0.8em;
+	margin-left:-0.5em;
+}
+
+.buy{
+	display:inline-block;
+	padding-left:1.4em;
+	padding-right:1.4em;
+}
+
+#footer{
+    margin-top: 1.5em;
+}
+
+#message_section{
+    color:white;
+    margin-top: 1em;
+    margin-left:2em;
+    font-size: large;   
+}

@@ -1,0 +1,72 @@
+body{
+    background-color: black;    
+}
+
+#registration_form{
+    color:white;   
+    background-color:gray;
+    border:gray solid thin;
+    border-radius:0.3em;
+    padding-left:4em;
+    width:60em;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 10em;
+    margin-top: 2em;
+}
+
+.headline{
+    width:8em;
+}
+
+.valueFields{
+    width:5em;
+}
+
+.fields{
+    width:8em;
+    height:1.5em;   
+}
+
+.buttons{
+    background-color:#424040;
+    color:gray;
+    border:none;
+    width:10em;
+    font-size:0.8em;	
+    border-radius:0.3em;
+    padding: 0.5em;    
+    cursor: pointer;
+}
+
+#myPopup{
+    margin-left: -8em;
+    color:#820507;
+}
+
+#message_div{
+    width:33em;	
+    font-size:0.9em;
+    padding:0.2em;
+    border-radius:0.1em;
+    height:auto;
+    visibility:visible;
+    color:#820507;
+    padding-left:0.3em;    
+}
+
+.no{
+    visibility: hidden;
+}
+
+
+th,td{
+    border-bottom: 1px solid white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.notBorder{
+    border-bottom: 1px solid grey;
+}

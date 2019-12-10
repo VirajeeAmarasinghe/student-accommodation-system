@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+body{
+    margin:0;
+    padding:0;	
+    width:100%;
+}
+
+/*---------------------------------------------------Top Stripe---------------------------------------------------*/
+
+#top_stripe{
+    background:#1b1b1b;    
+    height:40px; 
+    border-style:solid;
+    border-color:#1b1b1b;
+}
+
+#registration_nav{
+    display:inline-block;
+    float:right;
+    margin-right: 4.7em;
+}
+
+#registration_nav ul{
+    list-style-type:none;
+    float:right;
+    padding-right:20px;
+    margin-top: -2em;    
+}
+
+#registration_nav li{
+    display:inline-block;
+    margin-left:10px;  
+    margin-right:10px; 
+    margin-bottom:10px;
+}
+
+#registration_nav a{
+    text-decoration:none;
+    font-size:large; 
+    font-weight:bold;
+    color:#F8F0F1;
+}
+
+.dropdown{
+    width:11em;
+    background: #1b1b1b;
+    display: none;
+    position: absolute; 
+    padding-left:4px;   
+ }
+ *.dropdown a{
+     color:#F8F0F1;
+ }
+
+ul li:hover ul.dropdown{
+    display: block; /* Display the dropdown */    
+}
+
+ul li ul.dropdown li{
+    display: block;    
+}
+
+.dropdown li:hover a{
+    color:#E81B1F;
+}
+
+/*-------------------------------------------------Second Stripe--------------------------------------------------*/
+
+#second_stripe{
+    background:#222222;    
+    height:77px; 
+    border-style:solid;
+    border-color:#222222;
+    text-decoration:none;
+}
+
+#second_stripe:hover #title_1{
+    color:#FBF7F7;
+}
+
+#second_stripe:hover #title_2{
+    color:#820507;
+}
+
+#title_1{
+    padding-left:12%;
+    color:#820507;
+    display:inline-block;
+    margin-right:0;	
+    text-decoration:none;
+}
+
+#title_2{
+    color:#FBF7F7;
+    display:inline-block;
+    text-decoration:none;	
+}
+
+/*---------------------------------------------main navigaton bar--------------------------------------------------------*/
+.main{
+    background-color:#1b1b1b;   
+    height:74px; 
+    border-style:solid;
+    border-color:#1b1b1b;
+
+}
+
+nav ul{
+    list-style-type:none;
+    float:right;
+    padding-right:20px; 
+}
+
+nav li{
+    display:inline-block;
+    margin:10px; 
+}
+
+nav a{
+    text-decoration:none;
+    font-size:large; 
+    font-weight:bold;
+    color:#F8F0F1;
+}
+
+.home{
+    font-size:large; 
+    font-weight:bold;
+    color:#820507;
+}
+
+#Nav li:hover a
+{
+    color:#E81B1F;
+}
+
+/*-----------------------------------------------top banner---------------------------------------------------------------*/
+
+#top_banner img{
+    display:block;  /*To remove whitespace around the image*/
+    width:100%;
+}
+
+/*--------------------------------------------------------footer--------------------------------------------------------*/
+#footer{
+    border:#222222;
+    border-style:solid;	
+    border-width:thin;   
+    height:auto;
+    background:#222222;	
+}
+
+#footer_para{
+    height:auto;
+    width:auto;
+    margin-left:10px; 
+}
+

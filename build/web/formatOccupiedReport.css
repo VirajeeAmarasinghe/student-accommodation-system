@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding:0;	
+    width:100%;
+    background-color: black;
+}
+
+.main{
+    background-color:#1b1b1b;   
+    height:80px; 
+    border-style:solid;
+    border-color:#1b1b1b;
+}
+
+nav ul{
+    list-style-type:none;
+    float:right;
+    padding-right:20px; 
+}
+
+nav li{
+    display:inline-block;
+    margin:10px; 
+}
+
+.buttons{
+	background-color:#424040;
+	color:gray;
+	border:none;
+	width:15em;
+	font-size:0.9em;
+	height:3em;
+	border-radius:0.3em;
+}
+
+#registration_form{
+    color:white;
+    margin-left: 10em;
+    background-color:gray;
+    border:gray solid thin;
+    border-radius:0.3em;
+    padding-left:1.5em;
+    width:65em;
+    padding-bottom: 1.5em;
+    margin-bottom: 2em;
+    margin-top: 2em;    
+}
+
+#registration_form_area{
+    margin-right: 2em; 
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.headline{
+    width:8em;
+}
+
+.valueFields{
+    width:15em;
+}
+
+.fields{
+    width:8em;
+    height:1.5em;   
+}
+
+th,td{
+    border-bottom: 1px solid white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.page_header h2{
+    text-align: center;    
+}
+
+.page_header{
+    border-bottom: black thick solid;
+}
+
+#footer_para{
+    color:black;
+    border-top: black solid thick; 
+    margin-bottom: -1em;
+}
+
+#footer_para p{
+    margin-left: 58em;
+}
+
+
+
+
+
+
